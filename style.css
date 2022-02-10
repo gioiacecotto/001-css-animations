@@ -1,0 +1,48 @@
+.mushroom-container{
+    position: absolute;
+    left: 38%;
+    top: 45%;
+    width: 120px;
+    animation: mushAnimation 4s infinite;
+  }
+  .mushroom-container img{
+    width: 100%;
+  }
+  
+  @keyframes mushAnimation {
+    0%{
+      top: 20%;
+      left: 0%;
+      transform: rotate(-10deg)
+    }
+  
+    40%{
+      top: 60%;
+      left: 20%;
+      transform: rotate(10deg);
+      /* width: 240px; */
+    }
+  
+    60%{
+      left: 40%;
+      top: 20%;
+      transform: rotate(-10deg)
+  
+    }
+
+   80%{
+     left: 60%;
+     top: 60%;
+     transform: rotate(10deg)
+
+   }
+
+   100%{
+     left: 100%;
+     top: 20%;
+     transform: rotate(-10deg)
+
+   }
+
+
+  }
